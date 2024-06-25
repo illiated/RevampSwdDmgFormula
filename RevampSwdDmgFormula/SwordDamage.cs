@@ -40,7 +40,7 @@ namespace RevampSwdDmgFormula
             set
             {
                 magic = value;
-                CalculateDamage();
+                CalculateDamage();//Just finished Exercise p 267, part 1 point 3
             }
         }
         private bool flaming;
